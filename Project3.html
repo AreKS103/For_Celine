@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Project.css"> 
+    <script src="Project.js"></script>
+
+    <title>Dessert menu</title>
+    
+</head>
+<body class="body"></body>    
+    <header>
+        
+    </header>
+
+    <main>
+        <div class="center-contentC">
+            <center>
+                <h1 class="h1">We can't forget about dessert...</h1>
+            </center>
+            <div class="image-grid">
+                <div class="row">
+                    <div class="column">
+                        <label>
+                            <img src="\celine\Icecream.jpg" style="border-radius: 25px;">
+                            <p class="p1">Ice Cream</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\waffle.jpg" style="border-radius: 25px;">
+                            <p class="p1">Waffles</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\cake.webp" style="border-radius: 25px;">
+                            <p class="p1">Cake</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\applepie.jpg" style="border-radius: 25px;">
+                            <p class="p1">Apple Pie</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\bubbletea.jpeg" style="border-radius: 25px;">
+                            <p class="p1">Bubble Tea</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <label>
+                            <img src="\celine\mochi.jpg" style="border-radius: 25px;">
+                            <p class="p1">Mochi</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\donuts.jpeg" style="border-radius: 25px;">
+                            <p class="p1">Donuts</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\macarons.jpg" style="border-radius: 25px;">
+                            <p class="p1">Macarons</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\cremebrulee.jpg" style="border-radius: 25px;">
+                            <p class="p1">Crème brûlée</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\churros.avif" style="border-radius: 25px;">
+                            <p class="p1">Churros</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                    <div class="column">
+                        <label>
+                            <img src="\celine\smoothies.webp" style="border-radius: 25px;">
+                            <p class="p1">Smoothies</p>
+                            <input type="checkbox" name="dessert" onclick="limitCheckboxSelection(this)">
+                        </label>
+                    </div>
+                </div>
+                <div>
+                    <center>
+                        <form style="width: 200px; ">
+                            <input placeholder="Others">
+                        </form>
+                    </center>
+                </div>
+                <div class="center-contentC">
+                    <div class="button-container">
+                        <button class="button" onclick="goBack()">Back</button>
+                        <button class="button" onclick="Next4()">Next</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+
+    <button class="bottom-left-button" onclick="playSound()">?</button>
+    <audio id="sound" src="\Sounds\fart.mp3"></audio>
+    
+</body>
+</html>
+
+
